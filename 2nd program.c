@@ -10,7 +10,7 @@ int main()
     printf("Enter s for Square \n");
     printf("Enter r for rectangle \n");
     printf("Enter t for triangle \n");
-    printf("Enter first letter from above to calculate their area");
+    printf("Enter first letter from above to calculate their area : ");
     scanf("%c",&select);
     switch(select)
      {
