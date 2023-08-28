@@ -1,23 +1,43 @@
-BCA-VBU-2023-Assignments Repository License
-
-This work is licensed under the BCA-VBU-2023-Assignments Repository License.
+# BCA-VBU-2023-Assignments Repository License
 
 ## Terms and Conditions
 
-1. Permission is hereby granted, free of charge, to any student, contributor, or learner (hereafter referred to as "User") obtaining a copy of the assignments, solutions, and associated documentation files (the "Materials") within this repository, to use, study, modify, and share the Materials solely for the purpose of learning, collaboration, and academic development.
+**1. Grant of License**
 
-2. Users may adapt, modify, and build upon the Materials for personal educational use, including assignments, projects, and related coursework.
+The repository owner grants to you a non-exclusive, non-transferable license to use, study, modify, and share the materials in this repository for the purpose of learning, collaboration, and academic development.
 
-3. Commercial use, redistribution, or resale of the Materials, or derivative works based on the Materials, is strictly prohibited without prior written permission from the repository owner.
+**2. Permitted Uses**
 
-4. The repository owner makes no representations or warranties regarding the accuracy, applicability, or correctness of the Materials. The Materials are provided "as is" without any warranty or guarantee of any kind, either expressed or implied.
+You may adapt, modify, and build upon the materials for personal educational use, including assignments, projects, and related coursework.
 
-5. Any usage of the Materials shall retain and prominently display this license information along with the original attribution to the BCA-VBU-2023-Assignments Repository and its creator, Dev Kant Kumar.
+**3. Restricted Uses**
+
+Commercial use, redistribution, or resale of the materials, or derivative works based on the materials, is strictly prohibited without prior written permission from the repository owner.
+
+**4. Disclaimer of Warranties**
+
+The repository owner makes no representations or warranties regarding the accuracy, applicability, or correctness of the materials. The materials are provided "as is" without any warranty or guarantee of any kind, either expressed or implied.
+
+**5. Attribution**
+
+Any usage of the materials shall retain and prominently display this license information along with the original attribution to the BCA-VBU-2023-Assignments Repository and its creator, Dev Kant Kumar.
 
 ## Limitation of Liability
 
-In no event shall the repository owner or any contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages arising in any way out of the use of the Materials, even if advised of the possibility of such damage.
+In no event shall the repository owner or any contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages arising in any way out of the use of the materials, even if advised of the possibility of such damage.
 
 ## Acceptance
 
-By accessing and using the Materials within the BCA-VBU-2023-Assignments repository, you agree to abide by the terms and conditions of this license.
+By accessing and using the materials within the BCA-VBU-2023-Assignments repository, you agree to abide by the terms and conditions of this license.
+
+---
+
+**Additional Notes:**
+
+- The license is granted to "you," which means any student, contributor, or learner who obtains a copy of the materials.
+- The license is for non-commercial use only.
+- The materials are provided "as is" without any warranty or guarantee.
+- The repository owner and contributors are not liable for any damages arising from the use of the materials.
+- By accessing and using the materials, you agree to abide by the terms and conditions of the license.
+
+I hope this format is helpful! You can copy and paste this text into your `LICENSE` file in your GitHub repository.
