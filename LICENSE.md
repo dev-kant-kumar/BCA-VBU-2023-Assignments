@@ -40,4 +40,3 @@ By accessing and using the materials within the BCA-VBU-2023-Assignments reposit
 - The repository owner and contributors are not liable for any damages arising from the use of the materials.
 - By accessing and using the materials, you agree to abide by the terms and conditions of the license.
 
-I hope this format is helpful! You can copy and paste this text into your `LICENSE` file in your GitHub repository.
