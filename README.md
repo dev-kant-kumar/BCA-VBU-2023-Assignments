@@ -1,4 +1,5 @@
-![1692965362078](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/assets/101362859/e55b3e4f-8166-4fbc-b122-d30f561d1f85)
+![BCA VBU 2023 Assignment](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/assets/101362859/e55b3e4f-8166-4fbc-b122-d30f561d1f85)
+
 # BCA VBU 2023 Assignment Repository
 
 ## Description
@@ -55,10 +56,15 @@ Join the collaborative spirit! Contribute by:
 We acknowledge the hard work and dedication of all BCA students who contribute to this repository, shaping it into a vibrant coding resource.
 
 ## Contact
-Have questions, ideas, or feedback? Feel free to reach out through the issues section. Let's learn, collaborate, and code together!
+Have questions, ideas, or feedback? Feel free to reach out through the [issues section](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/issues). Let's learn, collaborate, and code together!
 
 ## License
-This repository is under the [MIT License](LICENSE). You are welcome to use and modify the code for educational and non-commercial purposes.
+This repository is under the [MIT License](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/blob/main/LICENSE.md). You are welcome to use and modify the code for educational and non-commercial purposes.
+
+## Additional Links
+- [Code of Conduct](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/blob/main/CODE_OF_CONDUCT.md)
+- [Contributing Guidelines](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/blob/main/CONTRIBUTING.md)
+- [Security Policy](https://github.com/dev-kant-kumar/BCA-VBU-2023-Assignments/blob/main/SECURITY.md)
 
 ---
 
