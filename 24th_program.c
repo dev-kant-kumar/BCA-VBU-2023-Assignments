@@ -1,0 +1,1 @@
+// Write a program that shows the use of switch statement.

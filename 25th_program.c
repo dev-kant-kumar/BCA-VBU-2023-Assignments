@@ -1,0 +1,1 @@
+// Write a program that read a line of text containing a series of words using of getchar() and putchar() function.  

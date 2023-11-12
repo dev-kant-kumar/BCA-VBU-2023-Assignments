@@ -1,0 +1,1 @@
+// Write a program that shows the difference between scanf() and gets() for string.

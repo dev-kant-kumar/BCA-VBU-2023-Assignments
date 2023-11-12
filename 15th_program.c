@@ -1,0 +1,1 @@
+// Write a program that finds whether entered number is Armstrong or not.s

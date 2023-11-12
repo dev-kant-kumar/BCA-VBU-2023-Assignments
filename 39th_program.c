@@ -1,0 +1,1 @@
+// Wrire a program that shows the use of chain of pointer.

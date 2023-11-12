@@ -1,0 +1,1 @@
+// Write a program using pointer to compute the sum of all elements stored in an array.

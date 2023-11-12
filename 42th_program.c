@@ -1,0 +1,1 @@
+// Write a program that uses pointer as a function argument.

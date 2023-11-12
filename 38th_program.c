@@ -1,0 +1,1 @@
+// Write a program to illustrate the use of indirection operator(*) to access the value pointed by a ponter.
