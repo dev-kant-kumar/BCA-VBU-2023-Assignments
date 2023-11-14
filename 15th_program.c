@@ -3,42 +3,31 @@
 #include<math.h>
 int main()
  {
-   int no_of_nos;
-   int num,reminder,count=0,sum=0,temp=num,temp1=num,i,j;
-   printf("Enter,how many numbers do you want to check :");
-   scanf("%d",&no_of_nos);
-   for(i=0;i<no_of_nos;i++)
+  int num,reminder,count=0,i,temp=num,sum=0,set=num;
+  printf("Enter a number : ");
+  scanf("%d",&num);
+  // Find the numbers of digits of input number and store it in count.
+  while(num!=0)
+   {
+    reminder=num%10;
+    count++;
+    num/=10;
+   }
+  // Calculate the sum of the digits raised to the power of the number of digits.
+   for(i=0;i<count;i++)
     {
-      
-      printf("Enter number %d : ",i+1);
-      scanf("%d",&num);
-      // Find the numbers of digits in input number and store it in count.
-      while(num!=0)
-       {
-         reminder=num%10;
-         count++;
-         num/=10;
-
-       }
-       printf("No of digits =%d \n",count);
-      // Calculating the sum of the digits raised to the power of no of digits in the input no.
-      for(j=0;j<count;j++)
-       {
-         reminder=temp%10;
-         sum+=(int)pow(reminder,count);
-         temp/=10;
-       } 
-      // Checking if the sum of the digits is equal to the original input number
-      printf("Sum is %d  \n",sum);
-      if(sum==temp1)
-       {
-         printf("Entered number is an armstrong number \n");
-       } 
-      else
-       {
-         printf("Entered number is not an armstrong number \n");
-       } 
-
+      reminder=temp%10;
+      sum+=pow(reminder,count);
+      temp/=10;
     }
+  // Check if the sum of the digits is equal to the original input number. 
+   if(set==sum)
+    {
+      printf("Entered number is an armstrong number \n");
+    } 
+   else
+    {
+      printf("Entered number is not an armstrong number \n");
+    } 
    return 0; 
  }
