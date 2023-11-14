@@ -24,9 +24,5 @@ int main()
          }
        printf("Factorial of %d = %d \n",set,fact);   
     } 
-    
-
-    
    return 0; 
-
  }
