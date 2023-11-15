@@ -3,31 +3,23 @@
 #include<math.h>
 int main()
  {
-  int num,reminder,count=0,i,temp=num,sum=0,set=num;
+  int num,digits,temp,reminder,sum=0;
   printf("Enter a number : ");
   scanf("%d",&num);
-  // Find the numbers of digits of input number and store it in count.
-  while(num!=0)
+  digits=printf("%d",num);
+  temp=num;
+  while(temp!=0)
    {
-    reminder=num%10;
-    count++;
-    num/=10;
+    reminder=temp%10;
+    sum+=pow(reminder,digits);
+    temp/=10;
    }
-  // Calculate the sum of the digits raised to the power of the number of digits.
-   for(i=0;i<count;i++)
+   if(sum==num)
     {
-      reminder=temp%10;
-      sum+=pow(reminder,count);
-      temp/=10;
+      printf(" is an armstrong number \n");
     }
-  // Check if the sum of the digits is equal to the original input number. 
-   if(set==sum)
-    {
-      printf("Entered number is an armstrong number \n");
-    } 
    else
     {
-      printf("Entered number is not an armstrong number \n");
+      printf(" is not an armstrong number \n");
     } 
-   return 0; 
  }
