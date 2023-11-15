@@ -12,7 +12,6 @@ int main()
         reverse=reverse*10+reminder;
         temp/=10;
      }
-    printf("Reverse: %d ",reverse); 
     if(reverse==num)
      {
         printf("Entered number is a palindrome no \n");
@@ -20,6 +19,7 @@ int main()
     else
      {
         printf("Entered number is not a plaindrome no \n");
+     }   
      
-   return 0;  } 
+   return 0; 
  }
