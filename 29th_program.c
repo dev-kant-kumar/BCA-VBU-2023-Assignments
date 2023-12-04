@@ -4,7 +4,7 @@ int fiboN(int n);
 int main()
  {
     int terms;
-    printf("Enter a number : ");
+    printf("Enter no of terms : ");
     scanf("%d",&terms);
     for(int i=0;i<terms;i++)
      {
