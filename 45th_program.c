@@ -40,6 +40,11 @@ void input()
     float marks;
     FILE *fptr;
     fptr=fopen("45th_program.txt","a");
+    if(fptr==NULL)
+     {
+      printf("Error opening the file \n");
+      return;
+     }
     printf("Enter your name :");    //Name
     scanf(" %[^\n]s",name);
     fprintf(fptr,"%s \t",name);
@@ -63,6 +68,7 @@ void print()
     if(fptr==NULL)
      {
         printf("File Not Found! \n");
+        return;
      }
     printf("We have these records of students \n");
     while (fscanf(fptr, " %[^\t]s", name) == 1)
