@@ -34,11 +34,11 @@ void usersignup()
  {
     printf("Sign Up \n");
     printf("Enter your first name : ");
-    fgets(firstname,50,stdin);
-    printf("\n");
+   //  fgets(firstname,50,stdin); having problem without taking input automatically it move to next line.I'll fix it later.
+    scanf(" %[^\n]s",firstname);
     printf("Enter your last name : ");
-    fgets(lastname,25,stdin);
-    printf("\n");
+   //  fgets(lastname,25,stdin);
+    scanf(" %[^\n]s",lastname);
     printf("Enter your email id : ");
     scanf("%s",emailid);
     printf("Enter first 5 digit of your pan number : ");
