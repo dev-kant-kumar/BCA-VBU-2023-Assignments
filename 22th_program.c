@@ -63,7 +63,7 @@ int main()
     printf("No of students belonging to respective groups are below \n");
     for(i=0;i<10;i++)
      {
-        printf("Group%d (%d%d-%d) : %d \n",i+1,i,1,i+10,marks_group[i]);
+        printf("Group%d (%d%d-%d%d) : %d \n",i+1,i,1,i+1,0,marks_group[i]);
      }
    return 0;  
 
