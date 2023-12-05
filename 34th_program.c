@@ -23,7 +23,7 @@ void reverseArr(int a[],int n)
      {
         revarr[i]=a[n-i-1];
      }
-     printf("Reverse of elements in array is belwo \n");
+     printf("Reverse of elements in array is below \n");
      for(int i=0;i<n;i++)
       {
         printf("%d \t",revarr[i]);
