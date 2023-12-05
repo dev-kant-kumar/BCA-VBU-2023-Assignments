@@ -62,9 +62,8 @@ void print()
         printf("File Not Found! \n");
      }
     printf("We have these records of students \n");
-    for(int i=0;i<no_of_students;i++) 
+    while (fscanf(fptr, " %[^\t]s", name) == 1)
      {
-       fscanf(fptr," %[^\t]s",name);
        fscanf(fptr,"%d",&roll);
        fscanf(fptr,"%f",&marks);
        printf("Name :%s | Roll :%d | Marks :%.1f \n",name,roll,marks);
