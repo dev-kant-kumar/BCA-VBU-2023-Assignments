@@ -13,6 +13,7 @@ int main()
     if(no_of_students<1)
      {
         printf("Enter valid no of students \n");
+        scanf("%*s");
         goto a;
      }
     else if(no_of_students>=1)
@@ -27,6 +28,7 @@ int main()
     else
      {
         printf("Enter valid no of students \n");
+        scanf("%*s");
         goto a;
      }  
     return 0; 
