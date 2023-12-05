@@ -7,12 +7,13 @@ void input();
 void print();
 int main()
  {
+   a:
     printf("Enter no of students : ");
     scanf("%d",&no_of_students);
     if(no_of_students<1)
      {
         printf("Enter valid no of students \n");
-        main();
+        goto a;
      }
     else if(no_of_students>=1)
      {
@@ -26,7 +27,7 @@ int main()
     else
      {
         printf("Enter valid no of students \n");
-        main();
+        goto a;
      }  
     return 0; 
  }
