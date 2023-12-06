@@ -2,26 +2,32 @@
 #include<stdio.h>
 int main()
  {
-    int num;
+    int num,n;
     a:
     printf("Enter a number :");
-    scanf("%d",&num);
-    if(num<0)
+    n=scanf("%d",&num);
+    if(n!=1) // Check that user not enter a letter or any special characters.
      {
-        printf("Enter valid positive number \n");
+        printf("Invalid Input! \n");
+        scanf("%*s");
+        goto a;  // Backward jump to label 'a'
+     }
+    else if(num<0)
+     {
+        printf("Enter a positive number only! \n");
         goto a; // Backward jump to label 'a'
      }
     else if(num%2==0)
     {
         goto b; // Forward jump to label 'b'
     }
-    else if(num%2!=0)
+    else
     {
         goto c; // Forward jump to label 'c'
     }
     b:
-    printf("You have entered a even no\n");
-    goto d;
+    printf("You have entered an even no\n");
+    goto d; // Forward jump to label 'd'
     c:
     printf("You have entered an odd number \n");
     d:
