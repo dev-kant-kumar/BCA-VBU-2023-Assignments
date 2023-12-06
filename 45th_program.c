@@ -2,21 +2,27 @@
 // write it to a file called INPUT, again read the same data from the INPUT file, and display it on the screen.
 // I have named text file:45th_program.txt as per my convenience
 #include<stdio.h>
-int no_of_students;
+int no_of_students,n;
 void input();
 void print();
 int main()
  {
    a:
     printf("Enter no of students : ");
-    scanf("%d",&no_of_students);
-    if(no_of_students<1)
+    n=scanf("%d",&no_of_students);
+    if(n!=1) //Ensure that user not enter any letters or special characters.
+    {
+      printf("Invalid Input! Enter positive no only \n");
+      scanf("%*s");
+      goto a;
+
+    }
+    else if(no_of_students<1)
      {
         printf("Enter valid no of students \n");
-        scanf("%*s");
         goto a;
      }
-    else if(no_of_students>=1)
+    else
      {
         printf("Enter student details asked below \n");
         for(int i=0;i<no_of_students;i++)
@@ -25,12 +31,6 @@ int main()
          }
         print(); 
      }
-    else
-     {
-        printf("Enter valid no of students \n");
-        scanf("%*s");
-        goto a;
-     }  
     return 0; 
  }
 void input()
