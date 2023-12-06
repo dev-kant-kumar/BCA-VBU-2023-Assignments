@@ -54,8 +54,8 @@ void input()
     fprintf(fptr,"%d \t",roll);
 
     printf("Enter marks : ");        //Marks
-    scanf("%f",&marks);
-    fprintf(fptr,"%f \n",marks);
+    scanf("%g",&marks);
+    fprintf(fptr,"%g \n",marks);
     fclose(fptr);
  }
 void print()
@@ -75,7 +75,7 @@ void print()
      {
        fscanf(fptr,"%d",&roll);
        fscanf(fptr,"%f",&marks);
-       printf("Name :%s | Roll :%d | Marks :%.1f \n",name,roll,marks);
+       printf("Name :%s | Roll :%d | Marks :%g \n",name,roll,marks);
      }
     fclose(fptr); 
  } 
