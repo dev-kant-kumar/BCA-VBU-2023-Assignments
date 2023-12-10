@@ -1,0 +1,6 @@
+# Ignore .exe created after compilation of c code.
+*.exe
+# Ignore json file
+*.json
+# Ignore .ini file
+*.ini
