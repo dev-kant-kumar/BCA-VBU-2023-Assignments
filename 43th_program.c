@@ -67,6 +67,7 @@ long * addtwoNo(long *nums,long target,int sizeNums)
     long *arr1;
     int contain=sizeNums,choice;
     arr1=(long *)malloc(2*sizeof(long));
+    
     for(int i=0;i<sizeNums;i++)
      {
         for(int j=0;j<sizeNums;j++)
